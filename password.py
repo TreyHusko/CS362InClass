@@ -3,6 +3,10 @@ import random
 def getLength(message):
     passLen = int(input(message))
     return passLen
-def genPassword(len):
+def genPassword(length):
+    word = ""
+    for len(length):
+        word += random.randint(32,126)
+    print(word)
 
 
