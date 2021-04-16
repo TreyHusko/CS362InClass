@@ -8,5 +8,5 @@ def calc(a, b):
     total = 0
     for num in resultsNum:
         total += num
-
-calc(4, 3)
+    print("The total is " + str(total))
+calc(6, 3)
