@@ -10,7 +10,7 @@ def genPassword(length):
         char = random.randint(32,126)
         word += chr(char)
         i += 1
-    print(word)
+    return word
 
 plength = getLength("Enter desired password length: ")
 password = genPassword(plength)
