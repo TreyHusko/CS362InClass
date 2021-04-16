@@ -5,6 +5,8 @@ def calc(a, b):
     divide = a / b
 
     resultsNum = [sum, diff, multiply, divide]
-    print(resultsNum)
+    total = 0
+    for num in resultsNum:
+        total += num
 
 calc(4, 3)
