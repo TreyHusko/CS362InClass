@@ -7,7 +7,8 @@ def genPassword(length):
     word = ""
     i = 0
     while i <=length:
-        word += random.randint(32,126)
+        char = random.randint(32,126)
+        word += chr(char)
         i += 1
     print(word)
 
