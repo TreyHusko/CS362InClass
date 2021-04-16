@@ -5,7 +5,7 @@ def getLength(message):
     return passLen
 def genPassword(length):
     word = ""
-    i = 0
+    i = 1
     while i <=length:
         char = random.randint(32,126)
         word += chr(char)
@@ -13,6 +13,7 @@ def genPassword(length):
     print(word)
 
 plength = getLength("Enter desired password length: ")
-genPassword(plength)
+password = genPassword(plength)
+print("Your generated password is " + str(password))
 
 
