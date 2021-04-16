@@ -9,4 +9,5 @@ def getNumber(prompt):
     userNum = int(input(prompt))
     return userNum
 
-input = getNumber("Enter a number to see the divisors")
+input = getNumber("Enter a number to see the divisors of it: ")
+divisor(input)
